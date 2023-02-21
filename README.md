@@ -4,4 +4,4 @@ This is the repository containing the code for this paper "Smart Summary: A Dist
 
 
 
-[Vue](https://github.com/a-ayad/Split_ECG_Classification)
+[Link to modified split learning mechanism repository](https://github.com/a-ayad/Split_ECG_Classification)
