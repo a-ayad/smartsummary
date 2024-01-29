@@ -1,0 +1,15 @@
+program: run_experiment.py
+early_terminate:
+  type: hyperband
+  min_iter: 20
+method: random
+metric:
+  goal: minimize
+  name: val_loss
+parameters:
+  learning_rate:
+    values: [0.01, 0.001, 0.0001]
+  batch_size:
+    values: [32, 64, 128, 256]
+  model_class:
+    value: LSTM
